@@ -1,0 +1,76 @@
+/* agLife.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    overflow: auto; /* Enable scrolling */
+
+}
+
+/* Hide scrollbars */
+body::-webkit-scrollbar {
+    width: 5px; /* Set a very thin scrollbar width */
+}
+
+body::-webkit-scrollbar-track {
+    background: #f2f2f2; /* Match the scrollbar track color to the background */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #f2f2f2; /* Match the scrollbar thumb color to the background */
+    border: none; /* Remove any border */
+}
+
+header, footer {
+    background: url('agLife/instagramTOP.png') center/cover;
+    padding: 0px;
+    text-align: center;
+    width: center;
+    z-index: 2; /* Ensure header and footer are above the grid */
+}
+
+footer {
+    background: url('agLife/instagramBOTTOM.png') center/cover;
+    position: bottom;
+    bottom: 0;
+    z-index: 2; /* Ensure footer is above the grid and other content */
+}
+
+#photoGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    max-width: 1080px;
+    margin: auto;
+    z-index: 1; /* Ensure grid is below the header and footer */
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.lightbox {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 3; /* Set a higher z-index for the lightbox */
+}
+
+.lightbox-image {
+    max-width: 90%;
+    max-height: 90%;
+}
+
