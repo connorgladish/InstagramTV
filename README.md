@@ -1,3 +1,13 @@
-This is an Exhibit at Discovery Park of America!
+# Instagram TV for Discovery Park of America
+---
+This application provides a graphical user interface (GUI) resembling Instagram, designed specifically for use on TVs at the Ag Center in Discovery Park of America. It offers a dynamic, real-time feed experience, mimicking the look and feel of Instagram. The interface updates dynamically with over 400 photos in its library, ensuring users encounter a unique viewing experience with every session. The application shuffles through the extensive photo collection to prevent repetition and enhance user engagement.
+---
+Key Features:
 
-This program works as an Instagram-like feed that allows users to swipe through dynamically shuffled pictures stored in an array of a photo bank. The user can also click on a photo to enlarge it, and click off to shrink it.
+Instagram-like GUI tailored for TV display
+Real-time, dynamic updates for a realistic user experience
+Extensive library of over 400 photos
+Intelligent shuffling to present new content with each session
+This project aims to deliver an immersive and engaging digital experience, enriching the visitor experience at Discovery Park of America.
+---
+# Software Developer, UI/UX Developer, Lead: Connor Gladish
